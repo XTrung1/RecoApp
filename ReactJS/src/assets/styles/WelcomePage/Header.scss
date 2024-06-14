@@ -1,0 +1,101 @@
+@import "../color.scss";
+@import "../variable.scss";
+
+.navbar {
+  background-color: $bg_lemon_chifon;
+  height: 101px;
+  border: 3px solid $color_black;
+  .navbar-container {
+    width: $container-pc-size;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    .navbar-left {
+      width: 50%;
+      .logo {
+        width: 21%;
+        height: 100%;
+        margin-left: 20%;
+        background: url("../../images/logo.svg") no-repeat center;
+        background-size: cover;
+      }
+    }
+    .navbar-right {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.5rem;
+      .navbar-language {
+        display: flex;
+        align-items: center;
+        padding: 0 0.5rem;
+        margin-left: auto;
+        position: relative;
+        i {
+          font-size: 1.4rem;
+          margin-right: 0.5rem;
+          line-height: 0;
+        }
+        .change-language {
+          border: 2px solid $color_black;
+          border-radius: $border-radius-btn;
+          font-size: 1rem;
+          font-weight: 700;
+          line-height: 1.5rem;
+          padding: 0 0.2rem;
+          background-color: $color_greeny_88;
+          option {
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.5rem;
+            &:hover {
+              background-color: $color_greeny_75;
+            }
+          }
+        }
+      }
+      .navbar-log {
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 2rem;
+        .btn {
+          padding: 0 1.6rem;
+          border: 2px solid $color_black;
+          border-radius: $border-radius-btn;
+          font-size: 1rem;
+          font-weight: 700;
+        }
+        .btn-sign-in {
+          background-color: $color_sign_in;
+          color: $color_white;
+          text-shadow: $color_black 2px 0px 0px,
+            $color_black 1.75517px 0.958851px 0px,
+            $color_black 1.0806px 1.68294px 0px,
+            $color_black 0.141474px 1.99499px 0px,
+            $color_black -0.832294px 1.81859px 0px,
+            $color_black -1.60229px 1.19694px 0px,
+            $color_black -1.97998px 0.28224px 0px,
+            $color_black -1.87291px -0.701566px 0px,
+            $color_black -1.30729px -1.5136px 0px,
+            $color_black -0.421592px -1.95506px 0px,
+            $color_black 0.567324px -1.91785px 0px,
+            $color_black 1.41734px -1.41108px 0px,
+            $color_black 1.92034px -0.558831px 0px;
+        }
+        .btn-sign-up {
+          background-color: $color_sign_up;
+          text-shadow: $color_white 1px 0px 0px,
+            $color_white 0.540302px 0.841471px 0px,
+            $color_white -0.416147px 0.909297px 0px,
+            $color_white -0.989992px 0.14112px 0px,
+            $color_white -0.653644px -0.756802px 0px,
+            $color_white 0.283662px -0.958924px 0px,
+            $color_white 0.96017px -0.279415px 0px;
+        }
+      }
+    }
+  }
+}
