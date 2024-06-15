@@ -1,6 +1,5 @@
 const actionTypes = Object.freeze({
-  INCREMENT: "INCREMENT",
-  DECREMENT: "DECREMENT",
+  CHANGE_LANGUAGE: "CHANGE_LANGUAGE",
 });
 
 export default actionTypes;

@@ -3,6 +3,7 @@
 
 .navbar {
   background-color: $bg_lemon_chifon;
+  width: 100%;
   height: 101px;
   border: 3px solid $color_black;
   .navbar-container {
@@ -62,6 +63,8 @@
         justify-content: space-evenly;
         margin: 0 2rem;
         .btn {
+          white-space: nowrap;
+          overflow: hidden;
           padding: 0 1.6rem;
           border: 2px solid $color_black;
           border-radius: $border-radius-btn;
@@ -69,6 +72,7 @@
           font-weight: 700;
         }
         .btn-sign-in {
+          margin-right: 0.3rem;
           background-color: $color_sign_in;
           color: $color_white;
           text-shadow: $color_black 2px 0px 0px,

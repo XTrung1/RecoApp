@@ -1,0 +1,9 @@
+{
+  "welcome": {
+    "sign_in": "Đăng Nhập",
+    "sign_up": "Đăng Ký",
+    "vietnamese": "Tiếng Việt",
+    "english": "Tiếng Anh",
+    "french": "Tiếng Pháp"
+  }
+}
