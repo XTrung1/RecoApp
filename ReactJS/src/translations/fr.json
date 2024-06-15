@@ -5,5 +5,30 @@
     "vietnamese": "Vietnamien",
     "english": "Anglais",
     "french": "Francais"
+  },
+  "footer": {
+    "bandage": "Recyclez-moi",
+    "company_info": "Infor sur l'entreprise",
+    "legal": "Légal",
+    "features": "Fonctionnalités",
+    "resources": "Ressources",
+    "get_in_touch": "Contact",
+    "about_us": "À propos de nous",
+    "carrier": "Transporteur",
+    "hiring": "Nous recrutons",
+    "blog": "Blog",
+    "marketing": "Marketing d'entreprise",
+    "analytic": "Analyse des utilisateurs",
+    "live": "Chat en direct",
+    "support": "Support illimité",
+    "demo": "Regardez une démo",
+    "customers": "Clients",
+    "api": "API",
+    "mobile": "IOS & Android",
+    "email": "Votre email",
+    "subscribe": "S'abonner",
+    "vendor": "Devenir partenaire ReCo ?",
+    "donate": "Envie de soutenir une œuvre caritative ?",
+    "click": "Cliquez ici !"
   }
 }

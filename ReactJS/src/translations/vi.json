@@ -5,5 +5,30 @@
     "vietnamese": "Tiếng Việt",
     "english": "Tiếng Anh",
     "french": "Tiếng Pháp"
+  },
+  "footer": {
+    "bandage": "Tái Chế Tôi",
+    "company_info": "Thông Tin Công Ty",
+    "legal": "Hợp Pháp",
+    "features": "Tính Năng",
+    "resources": "Tài Nguyên",
+    "get_in_touch": "Liên Hệ",
+    "about_us": "Về chúng tôi",
+    "carrier": "Tài chính",
+    "hiring": "Thông tin tuyển dụng",
+    "blog": "Tin tức",
+    "marketing": "Tiếp thị kinh doanh",
+    "analytic": "Phân tích người dùng",
+    "live": "Trò chuyện trực tuyến",
+    "support": "Hỗ trợ mọi lúc",
+    "demo": "Xem giới thiệu",
+    "customers": "Khách hàng",
+    "api": "API",
+    "mobile": "IOS & Android",
+    "email": "Email của bạn",
+    "subscribe": "Theo dõi",
+    "vendor": "Trở thành đối tác của ReCO ?",
+    "donate": "Muốn quyên góp từ thiện ?",
+    "click": "Nhấp vào đây !"
   }
 }

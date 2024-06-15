@@ -1,0 +1,166 @@
+@import "../assets/styles/color.scss";
+@import "../assets/styles/variable.scss";
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 586px;
+  justify-content: center;
+  background-image: url("../assets/images/bg_footer.png");
+  background-size: cover;
+  align-items: center;
+  .footer-container {
+    width: $footer-conter-size;
+    display: flex;
+    flex-direction: column;
+    .footer-top {
+      display: flex;
+      padding: 1.5rem 0;
+      border-bottom: 1px solid $color_black;
+      font-size: 1.3rem;
+      justify-content: space-between;
+      .title {
+        font-weight: 700;
+        margin-left: 0.3rem;
+        color: $color_greeny_13;
+      }
+      .social {
+        margin-right: 2rem;
+        a {
+          margin: 0 0.6rem;
+          i {
+            color: $color_greeny_38;
+          }
+        }
+      }
+    }
+    .footer-bot {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3rem;
+      .company-info,
+      .legal,
+      .features,
+      .resources {
+        flex: 1;
+        .name {
+          color: $color_greeny_13;
+          @include text-footer-style;
+          margin-bottom: 1rem;
+          display: block;
+        }
+        a {
+          text-decoration: none;
+          .span-text {
+            font-size: 0.9rem;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 0.7rem;
+            color: $color_smoke;
+          }
+        }
+      }
+      // .company-info {
+      //   .about-us {
+      //   }
+      //   .carrier {
+      //   }
+      //   .hiring {
+      //   }
+      //   .blog {
+      //   }
+      // }
+      // .legal {
+      //   .about-us {
+      //   }
+      //   .carrier {
+      //   }
+      //   .hiring {
+      //   }
+      //   .blog {
+      //   }
+      // }
+      // .features {
+      //   .marketing {
+      //   }
+      //   .analytic {
+      //   }
+      //   .live {
+      //   }
+      //   .support {
+      //   }
+      // }
+      // .resources {
+      //   .mobile {
+      //   }
+      //   .demo {
+      //   }
+      //   .customer {
+      //   }
+      //   .api {
+      //   }
+      // }
+      .get-in-touch {
+        margin-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        flex: 2;
+        .name {
+          color: $color_greeny_13;
+          @include text-footer-style;
+          margin-bottom: 1rem;
+          display: block;
+        }
+        .subscribe {
+          margin-bottom: 1.3rem;
+          border-radius: 10px;
+          border: 1px solid $color_border_input;
+          .subscribe-input {
+            color: $color_smoke;
+            padding-left: 1rem;
+            border-radius: 10px 0 0 10px;
+            border: none;
+            &:focus {
+              outline: none;
+            }
+          }
+          .subscribe-btn {
+            color: $color_white;
+            border: none;
+            background-color: $color_greeny_38;
+            border-radius: 0 10px 10px 0;
+          }
+        }
+
+        .vendor,
+        .donate {
+          margin-bottom: 0.7rem;
+          @include text-footer-style;
+          .text {
+            margin-right: 0.5rem;
+          }
+          .link {
+            text-decoration: none;
+          }
+        }
+
+        .vendor {
+          // .vendor-text {
+          // }
+          .vendor-link {
+            color: $color_greeny_38;
+          }
+        }
+
+        .donate {
+          // .donate-text {
+          // }
+          .donate-link {
+            color: $color_red;
+          }
+        }
+      }
+    }
+  }
+}

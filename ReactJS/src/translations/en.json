@@ -5,5 +5,30 @@
     "vietnamese": "Vietnamese",
     "english": "English",
     "french": "French"
+  },
+  "footer": {
+    "bandage": "Recycle Me",
+    "company_info": "Company Infor",
+    "legal": "Legal",
+    "features": "Features",
+    "resources": "Resources",
+    "get_in_touch": "Get In Touch",
+    "about_us": "About Us",
+    "carrier": "Carrier",
+    "hiring": "We are hiring",
+    "blog": "Blog",
+    "marketing": "Business Marketing",
+    "analytic": "User Analytics",
+    "live": "Live Chat",
+    "support": "Unlimited Support",
+    "demo": "Watch a Demo",
+    "customers": "Customers",
+    "api": "API",
+    "mobile": "IOS & Android",
+    "email": "Your Email",
+    "subscribe": "Subscribe",
+    "vendor": "Become a ReCo Vendor ?",
+    "donate": "Donate For Charity ?",
+    "click": "Click Here !"
   }
 }
